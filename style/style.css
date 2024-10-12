@@ -7,6 +7,7 @@ body {
     padding: 0;
 }
 
+/* header section start now */
 #head-contain {
     background: url(../assets/hero-bg.png);
     background-position: center;
@@ -18,9 +19,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
     color: white;
-    
+
 }
 
 .head-container {
@@ -44,6 +45,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 20px;
+    opacity: 0.7;
 }
 
 .primary-btn {
@@ -53,4 +55,91 @@ body {
     border-radius: 3px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
+}
+
+/* main section style start now */
+.card-section {
+    width: 990px;
+
+    margin: 150px auto;
+    border: 2px solid red;
+}
+
+.tittle-para {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    opacity: 0.6;
+
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.tittle {
+    color: rgb(16, 16, 16);
+
+    font-size: 40px;
+    font-weight: 700;
+
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center
+}
+
+.img-container {
+    max-width: 300px;
+    margin-top: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 {
+    max-width: 300px;
+
+}
+
+.img-1 img {
+    width: 100%;
+}
+
+.pizza {
+    background: rgba(82, 195, 3, 0.15);
+    width: 127px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 14px 32px 14px 32px;
+}
+
+.shop {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-param {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.btn-container {
+    text-align: center;
 }
